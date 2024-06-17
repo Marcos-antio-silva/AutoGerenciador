@@ -21,28 +21,40 @@
     transform: scale(1);
 }
 
-div{width: 100%;}
-
-div#tudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    }
-
 section{
     background-color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    width: 500px;
     margin: auto;
-    width: auto;
+
 }
 .formulario {
     display: flex;
+    margin-bottom: 20px;
+}
 
+#glosario {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+.tabela {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
 }
 
 /* Estilos para a lista de produtos */
-/* .lista-container {
+.lista-container {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
@@ -97,4 +109,4 @@ section{
 .alerta-sucesso {
     color: #ffffff;
     background: #568b62;
-} */
+}
